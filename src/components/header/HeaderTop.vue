@@ -1,7 +1,5 @@
 <template>
   <div class="header-top">
-    <source srcset="@/assets/santa.webp" type="image/webp" />
-    <img src="@/assets/santa.png" class="santa" />
     <Navigation />
     <h1 class="header-top-title">
       Watataku's<br />
@@ -24,27 +22,19 @@ export default {
 /*PC*/
 @media screen and (min-width: 1026px) {
   .header-top {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #152c4e;
+    background-color: #263c5f;
     width: 100%;
-    height: 35vh;
-  }
-
-  .santa {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .header-top .header-top-title {
     z-index: 20;
-    margin-right: 5%;
     color: #999;
     letter-spacing: 1px;
-    font-size: 3.5em;
+    font-size: 5.5em;
     font-weight: bold;
     font-family: "Kaushan Script", cursive;
     font-family: "Bad Script", cursive;
@@ -54,26 +44,18 @@ export default {
 /*タブレット*/
 @media screen and (min-width: 482px) and (max-width: 1025px) {
   .header-top {
+    background-color: #263c5f;
+    width: 100%;
+    height: 60vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: #152c4e;
-    width: 100%;
-    height: 75vh;
-  }
-
-  .santa {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 35vw;
+    justify-content: center;
   }
 
   .header-top .header-top-title {
-    padding-right: 3vh;
     z-index: 10;
     color: #999;
-    font-size: calc(3.5vw + 0.5em);
+    font-size: calc(4.5vw + 1.5em);
     font-weight: bold;
     font-family: "Kaushan Script", cursive;
     font-family: "Bad Script", cursive;
@@ -82,26 +64,18 @@ export default {
 /*スマホ*/
 @media screen and (max-width: 481px) {
   .header-top {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: #152c4e;
+    padding-top: 50%;
+    background-color: #263c5f;
     width: 100%;
-    height: 65vh;
-  }
-
-  .santa {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 20vh;
+    display: flex;
+    justify-content: center;
+    height: 10px;
   }
 
   .header-top .header-top-title {
     color: #999;
     letter-spacing: 1px;
-    font-size: 1.3em;
+    font-size: 1.8em;
     font-weight: bold;
     font-family: "Kaushan Script", cursive;
     font-family: "Bad Script", cursive;

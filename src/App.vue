@@ -48,8 +48,7 @@ export default {
 
 .h-header {
   width: 100%;
-  height: calc(75vh + 280px);
+  height: calc(70vh + 30vw);
   position: relative;
 }
-
 </style>

@@ -1,7 +1,7 @@
 <template>
   <p>
     <a
-      href="https://twitter.com/share?url=https://watataku8911.github.io/christmas2020/&text=x'mas special site"
+      href="https://twitter.com/share?url=https://watataku8911.github.io/christmas2021/&text=x'mas special site at 2021"
       target="_blank"
       class="share-link"
     >
