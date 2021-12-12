@@ -1,7 +1,7 @@
 <template>
   <p>
     <a
-      href="http://www.facebook.com/share.php?u=https://watataku8911.github.io/christmas2020"
+      href="http://www.facebook.com/share.php?u=https://watataku8911.github.io/christmas2021"
       target="_blank"
       class="share-link"
     >
@@ -15,7 +15,12 @@
 import FbSvgBlack from "@/assets/icon/icon_facebook_black.svg";
 import FbSvgWhite from "@/assets/icon/icon_facebook_white.svg";
 export default {
-  props: ["color"],
+  props: {
+    color: {
+      type: String,
+      required: true,
+    },
+  },
   components: {
     FbSvgBlack,
     FbSvgWhite,

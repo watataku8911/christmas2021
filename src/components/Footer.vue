@@ -8,7 +8,7 @@
         <ShareTwitter color="black" class="footer-link-twitter" />
       </div>
       <small
-        ><a href="https:watataku-portfolio.web. app" target="_blank"
+        ><a href="https:watataku-portfolio.web.app" target="_blank"
           >&copy;2021 Watataku.</a
         ></small
       >
@@ -18,7 +18,6 @@
 
 <script>
 import ShareTwitter from "../components/ShareTwitter";
-
 import ShareFacebook from "../components/ShareFacebook";
 export default {
   components: {
@@ -40,7 +39,7 @@ footer {
 
 .footer-top {
   height: 30vh;
-  background-color: #000;
+  background-color: #263c5f;
   background-image: url(../assets/footer_bg.png);
   background-size: cover;
   background-position: left bottom;
@@ -51,10 +50,15 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #263c5f;
   height: 25vh;
 }
 
 .sns {
+  background-color: #fff;
+  padding: 1.5%;
+  border-radius: 20px;
+  box-shadow: -29px 21px 46px -11px #aaa;
   position: absolute;
   bottom: 3vh;
   right: 3vh;
@@ -66,7 +70,7 @@ small {
 }
 
 small a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 </style>
