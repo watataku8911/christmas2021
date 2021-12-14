@@ -29,9 +29,7 @@ export default {
   },
   methods: {
     mouseover() {
-      setTimeout(() => {
-        this.isOpen = true;
-      }, 600);
+      this.isOpen = true;
     },
 
     mouseleave() {
